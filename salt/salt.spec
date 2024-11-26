@@ -454,6 +454,10 @@ Patch144:       fix-x509-private-key-tests-and-test_suse-on-sle12-68.patch
 Patch145:       enhance-cleanup-mechanism-after-salt-bundle-upgrade-.patch
 # PATCH-FIX_UPSTREAM: https://github.com/saltstack/salt/commit/9683260d61668da8559ecde6caf63a52fedd8790
 Patch146:       handle-logger-flushing-already-closed-file-686.patch
+# PATCH-FIX_UPSTREAM: https://github.com/saltstack/salt/pull/66422
+# PATCH-FIX_UPSTREAM: https://github.com/saltstack/salt/pull/66757
+# PATCH-FIX_UPSTREAM: https://github.com/saltstack/salt/pull/66760
+Patch147:       make-minion-reconnecting-on-changing-master-ip-bsc-1.patch
 
 ### IMPORTANT: The line below is used as a snippet marker. Do not touch it.
 ### SALT PATCHES LIST END

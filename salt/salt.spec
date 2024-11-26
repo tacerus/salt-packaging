@@ -21,7 +21,7 @@
 %else
 %bcond_with libalternatives
 %endif
-%if 0%{?sle_version} >= 150400
+%if 0%{?sle_version} >= 150400 || 0%{?suse_version} >= 1600
 %define _alternatives 1
 %endif
 
